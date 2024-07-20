@@ -234,7 +234,7 @@ RegisterCommand("taxifare", function()
         if IsPedInVehicle(PlayerPedId(), taxi, false) then
     TriggerEvent("stag_taxijob:client:chargeRider")
     else 
-        QBCore.Functions.Notify('Not on duty or not in a bus', 'error', 5000)
+        QBCore.Functions.Notify('Not on duty or not in a taxi', 'error', 5000)
     end
 end
 end, false)
