@@ -1,10 +1,15 @@
 Config = {
 
-taxiSpawn = {x = 464.34, y = -618.32, z = 28.5},
+    taxiSpawn = {x = 916.35, y = -161.8, z = 74.74},
 
-taxiReturnLocation = {x = 423.4, y = -642.51, z = 28.5},
+    taxiReturnLocation = {x = 901.29, y = -186.78, z = 73.79},
 
-dutyToggle = {x = 454.0, y = -600.0, z = 28.6},
+    dutyToggle = {x = 894.92, y = -179.31, z = 74.7},
 
-taxiModel = 'taxi',
+    taxiModel = 'taxi',
+
+    Meter = {
+        ['defaultPrice'] = 25.0, -- price per mile
+        ['startingPrice'] = 0     -- static starting price
+    },
 }
